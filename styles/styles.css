@@ -149,7 +149,7 @@ header {
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  justify-items: center;
 }
 .aboutUsHolder {
   display: flex;
