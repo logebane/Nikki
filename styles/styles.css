@@ -88,7 +88,7 @@ header {
   width: inherit;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
+  gap: 10px;
 }
 #iFrame {
   width: 100%;
@@ -98,7 +98,6 @@ header {
 .youtubeVid {
   width: 100%;
   height: 420px;
-  padding: 5px;
 }
 .youtubeVid2 {
   padding-left: 10px;
