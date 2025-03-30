@@ -1,0 +1,80 @@
+body {
+  background-image: url("/images/background3.jpg");
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.textMargin {
+  margin-left: 190px;
+  margin-top: 200px;
+}
+.textHolder {
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-image: url("/images/background.webp");
+  }
+
+  .textHolder {
+    font-size: 40px;
+  }
+  .textMargin {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 190px;
+  }
+}
+/*Button*/
+.buttonHolder {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #bcda12;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
