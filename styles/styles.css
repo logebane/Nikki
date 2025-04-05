@@ -148,7 +148,6 @@ header {
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
-  position: absolute;
 }
 .grid {
   display: grid;
