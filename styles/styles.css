@@ -53,11 +53,6 @@ header {
   display: flex;
   flex-direction: row;
 }
-.pastProjects {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 160px;
-}
 .leftSection button {
   height: 60px;
   width: 100%;
@@ -81,9 +76,10 @@ header {
   width: 100%;
   border-radius: 3px;
 }
-.gridHolder {
+.flexHolder {
   justify-self: center;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 1200px;
 }
 .holder {
@@ -98,6 +94,7 @@ header {
   border: 1.9px solid black;
 }
 .youtubeVid {
+  display: flex;
   width: 100%;
   height: 420px;
   object-fit: cover;
@@ -149,6 +146,11 @@ header {
   width: 100%;
   height: auto;
   background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -173,10 +175,10 @@ header {
   .holder {
     grid-template-columns: 1fr;
   }
-  .gridHolder {
-    width: 29rem;
+  .flexHolder {
+    width: 30rem;
   }
-  #FOOTER {
+  .grid {
     grid-template-columns: 1fr;
     justify-items: center;
   }
@@ -194,5 +196,11 @@ header {
 @media (min-width: 360px) and (max-width: 600px) {
   .wrapper {
     width: 100%;
+  }
+  .flexHolder {
+    width: 22rem;
+  }
+  .menu {
+    width: 30%;
   }
 }
