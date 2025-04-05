@@ -3,12 +3,14 @@
 }
 .infoHolder {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  width: 75%;
+  justify-self: center;
   flex-direction: column;
 }
 .info {
   margin: 2rem auto 2rem;
-  width: 90%;
+  width: 75%;
   padding: 13px;
   background-color: rgba(109, 109, 109, 0.767);
   display: flex;
@@ -16,8 +18,7 @@
 }
 .info2 {
   margin: 2rem auto 2rem;
-  width: 90%;
-  max-width: 890px;
+  width: 75%;
   padding: 13px;
   background-color: rgba(109, 109, 109, 0.767);
   display: flex;
@@ -77,11 +78,11 @@ ul {
 
 @media (max-width: 761px) {
   .info {
-    width: 28em;
+    width: 85%;
     flex-direction: column;
   }
   .info2 {
-    width: 28em;
+    width: 85%;
     flex-direction: column;
   }
 }
