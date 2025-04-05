@@ -8,7 +8,7 @@
 }
 .info {
   margin: 2rem auto 2rem;
-  width: 54em;
+  width: 90%;
   padding: 13px;
   background-color: rgba(109, 109, 109, 0.767);
   display: flex;
@@ -16,7 +16,8 @@
 }
 .info2 {
   margin: 2rem auto 2rem;
-  width: 54em;
+  width: 90%;
+  max-width: 890px;
   padding: 13px;
   background-color: rgba(109, 109, 109, 0.767);
   display: flex;

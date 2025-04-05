@@ -5,6 +5,20 @@ p {
 hr {
   border-color: black;
 }
+
+/* @media only screen and (max-width: 400px) {
+  body {
+    padding-top: 90px;
+    background-image: url("../images/background.png");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 98%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+} */
+
 body {
   margin: 0px;
   padding-top: 90px;
@@ -80,10 +94,11 @@ header {
   justify-self: center;
   display: flex;
   flex-direction: column;
-  width: 1200px;
+  width: 90%;
+  align-items: center;
 }
 .holder {
-  width: inherit;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -94,14 +109,13 @@ header {
   border: 1.9px solid black;
 }
 .youtubeVid {
-  display: flex;
   width: 100%;
+  display: flex;
   height: 420px;
   object-fit: cover;
 }
 .imageContainer {
   width: 100%;
-  height: 420px;
   object-fit: cover;
 }
 .textHolder {
@@ -118,6 +132,7 @@ header {
   margin-bottom: 20px;
 }
 .schooliFrame {
+  width: 80%;
   height: 720px;
   margin-top: 20px;
   border: 1.9px solid black;
